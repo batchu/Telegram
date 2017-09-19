@@ -46,7 +46,8 @@
 #ifdef __cplusplus
 extern "C" {
 #endif  // __cplusplus
-typedef struct user_fxsr_struct user_fpxregs_struct;
+typedef struct user_fxsr_struct;
+typedef struct user_fpxregs_struct;
 #ifdef __cplusplus
 }  // extern "C"
 #endif  // __cplusplus
